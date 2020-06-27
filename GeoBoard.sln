@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoBoard", "GeoBoard\GeoBoard.csproj", "{F409CD85-A798-4144-A0A9-D69622EDDE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F409CD85-A798-4144-A0A9-D69622EDDE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F409CD85-A798-4144-A0A9-D69622EDDE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F409CD85-A798-4144-A0A9-D69622EDDE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F409CD85-A798-4144-A0A9-D69622EDDE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {655A45B4-568B-4D2F-B937-4E3EA13FF657}
+	EndGlobalSection
+EndGlobal

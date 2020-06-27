@@ -1,0 +1,76 @@
+﻿@page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GeoBoard</title>
+    <link href="~/css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="overlay">
+
+        <img class="overlay-image-zoom-in" id="overlay-image" src="" />
+
+    </div>
+
+    <div class="background-selector-overlay">
+        <div class="background-selector-container">
+            <div class="background-selector-header">
+                <div class="background-selector-header-title">
+                    Kies achtergrond:
+                </div>
+                <button class="background-selector-header-close"></button>
+            </div>
+
+            <div class="background-selector-body">
+                <div class="background-selector-image background-selector-image-no-background"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi1.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi2.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi3.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi4.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi5.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi6.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi7.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi8.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi9.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi10.jpg')"></div>
+                <div class="background-selector-image" style="background-image: url('/images/bi11.jpg')"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="overlay-button"></button>
+    <button class="darkmode-switch darkmode-switch-light"></button>
+    <button class="background-switch"></button>
+
+    <div class="header">
+        <div class="title"></div>
+
+        <div class="clear-button-container">
+            <button class="clear-button clear-button-summon">Clear Board</button>
+            <button class="clear-button clear-button-yes" hidden>Yes</button>
+            <button class="clear-button clear-button-no" hidden>No</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="new-item">
+            <button class="item-button new-item-button"></button>
+        </div>
+    </div>
+
+    <code class="version">v0.3.2 - Made with ❤️ by Luuk Wuijster</code>
+
+    <script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/board.js"></script>
+
+</body>
+</html>
+
+
