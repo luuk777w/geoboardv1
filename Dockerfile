@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
+FROM mcr.microsoft.com/dotnet/core/sdk:2.1
 WORKDIR /GeoBoard
 
 # Copy csproj and restore as distinct layers
@@ -14,5 +14,5 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 WORKDIR /GeoBoard
 EXPOSE 5000
-COPY --from=build-env /GeoBoard/out .
+COPY --from=0 /GeoBoard/out .
 ENTRYPOINT ["dotnet", "GeoBoard.dll"]
